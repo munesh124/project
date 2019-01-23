@@ -1,4 +1,4 @@
-#!/home/ongraph/project/venv/bin/python
+#!/home/ubuntu/project/venv/bin/python
 
 import sys
 import getopt

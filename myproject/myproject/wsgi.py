@@ -8,9 +8,12 @@ https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
 """
 
 import os
+import sys
 
 from django.core.wsgi import get_wsgi_application
 
+sys.path.append('/home/ubuntu/project/myproject')
+sys.path.append('/home/ubuntu/project/venv/lib/python3.5')
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 
 application = get_wsgi_application()
